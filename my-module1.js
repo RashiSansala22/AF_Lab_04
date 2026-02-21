@@ -1,4 +1,3 @@
-exports.myFunction = () => "Hello from my module!";
-
-
-
+exports.myFunction = function () {
+  return "Hello from my module!";
+};
